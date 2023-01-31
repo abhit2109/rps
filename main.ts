@@ -57,7 +57,6 @@ function reset () {
     OLED.init(128, 64)
     Rounds = 0
     Ties = 0
-    Ties += 1
     P1 = 0
     P2 = 0
     OLED.writeStringNewLine("Shall We Play A Game?")
